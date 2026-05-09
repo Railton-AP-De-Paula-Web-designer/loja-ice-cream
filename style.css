@@ -1,8 +1,8 @@
-/**{
+**{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}*/
+}*
 .item {
     display: none;
     width: 100%;
@@ -98,4 +98,6 @@
 #picole-maca-verde {
     width: 400px;
 }
+
+
 
