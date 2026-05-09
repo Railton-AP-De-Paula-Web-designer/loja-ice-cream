@@ -79,11 +79,23 @@
 }
 
 .item.active img.fruit {
-    animation: toActive 0.5s ease-in-out 1;
+    animation: toActive 1.5s ease-in-out 1;
 
 }
 
 .item.active .title {
     animation: toActive 0.5s ease-in-out 1;
+}
+
+#picole-goiaba {
+    width: 400px;
+}
+
+#picole-melancia {
+    width: 400px;
+}
+
+#picole-maca-verde {
+    width: 400px;
 }
 
