@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -32,4 +35,48 @@
     position: relative;
     z-index: 2;
     text-align: center;
+}
+
+.side-text {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 35%;
+    color: #fff;
+    z-index: 3;
+    text-align: center;
+    overflow: visible;
+}
+.side-text.left {
+    left: 1%;
+    /* efeito de brilho e frio(na imagem)*/
+   /* filter: drop-shadow(0 0 12px rgba(0, 210, 255, 0.6))
+    drop-shadow(0 0 5px rgba(255, 255, 255, 0.3));*/
+}
+.side-text.right {
+    right: 2%
+}
+
+.side-text h2 {
+    font-family: 'playfair Display', serif;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: 1;
+    white-space: normal;
+    letter-spacing: 1px;
+    margin: 0;
+    background: linear-gradient(180deg, #64e9ff 0%, #ffffff 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    filter: drop-shadow(0 0 10px rgba(70, 210, 255, 0.7));
+    
+
+}
+.side-text p {
+    font-size: 1.1rem;
+    font-weight: 300;
+    line-height: 1.4;
 }
