@@ -118,4 +118,36 @@
     width: 400px;
 }
 
+#picole-nata {
+    width: 400px;
+}
+
+#nata-color,#chocobranco-color,#leitinho-color {
+    color:  red
+}
+
+.btn-home {
+    position: fixed;
+    top: 30px;
+    left: 77%;
+  transform: tranlateX(-50%);
+text-decoration: none;
+color: blue;
+background-color:rgba(238, 232, 232, 0.6);
+padding: 12px 35px;
+border-radius: 50px;
+border: 1px solid rgba(238, 232, 232, 0.6);
+font-family: system-ui, -apple-system, sans-serif;
+font-weight: bold;
+font-size: 0.9rem;
+text-transform: uppercase;
+letter-spacing: 2px;
+z-index: 99;
+transition: all 0.3s ease;
+cursor: pointer;
+
+}
+
+
+
 
