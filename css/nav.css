@@ -1,29 +1,53 @@
- *{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
- }
- .navbar {
-  background-color: #333;
-  padding: 1rem 2rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
- }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
- .nav-links {
+body {
+  background-color: #dcdcdc;
+  font-family: arial,helvetica, sans-serif;
+  overflow-x: hidden ;
+}
+.header {
+  width: 100%;
+}
+.navbar {
+  width: 100%;
+ min-height: 700px;
+ margin-top: 7px;
+  background-image: url('../assets/caldanav-chocolate.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100% auto;
+  display: flex;
+  align-items: flex-start;
+  padding-top: -40px;
+  padding-left: 50px;
+
+}
+.nav-links {
+  display: flex;
+  gap: 60px;
   list-style: none;
-  display: flex;
-  gap: 30px;
- }
-
- .nav-links li a {
+}
+.nav-links li a {
   text-decoration: none;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(15, 15, 16);
+  font-size: 2rem;
   font-weight: bold;
-  transition: 0.3s;
- }
- .nav-links li a:hover {
-  color: aquamarine;
- }
+  letter-spacing: 1px;
+  transition: 0.3s ease;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.7),
+  0 0 10px rgba(0, 0, 0, 0.4);
+}
+.nav-links li a:hover {
+  transform: translateY(3px);
+  text-shadow: 0 0 10px rgb(137, 20, 161),
+  0 0 20px rgb(44, 15, 130);
+
+}
+
+.titulo-principal {
+  margin-top: 10px;
+}
