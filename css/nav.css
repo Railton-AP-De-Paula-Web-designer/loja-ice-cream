@@ -1,23 +1,28 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 body {
-background: radial-gradient(circle, #2e0854 0%, #0a0a0a 100%);
+  background: radial-gradient(circle, #2e0854 0%, #0a0a0a 100%);
   font-family: 'popppins', arial, helvetica, sans-serif;
   overflow-x: hidden;
 }
+
 .header {
   width: 100%;
 }
+
 .navbar-container {
   width: 100%;
-  background-color:#ffffff;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05)
+  background-color: #101010;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  position: relative;
+  z-index: 10;
 
 }
+
 .navbar-content {
   width: 100%;
   max-width: 1440px;
@@ -36,25 +41,59 @@ background: radial-gradient(circle, #2e0854 0%, #0a0a0a 100%);
 .logo-vitoria {
   font-size: 1.6rem;
   font-weight: 700;
-  color: #e64c72;
+  color: #8c06b5;
   letter-spacing: -0.5px;
 }
+
 .nav-links {
   display: flex;
   gap: 40px;
   list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+
 }
+
+.nav-links a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.8rem;
+  /* Aumentado para 1.8rem para o degradê aparecer melhor nos traços finos */
+  letter-spacing: 1px;
+  /* Corrigido: adicionado 'px' para o navegador processar */
+  font-family: 'Great Vibes', cursive;
+  /* Configuração do Degradê Moderno (Compatível com Chrome, Edge, Safari e Firefox) */
+  background: linear-gradient(135deg, #272525 0%, #7e16e6 50%, #ede8e9 100%);
+  -webkit-background-clip: text;
+  /* Corta o fundo no formato do texto para motores Webkit */
+  background-clip: text;
+  /* Corta o fundo no formato do texto padrão */
+  /* ATENÇÃO: Estas duas linhas abaixo são as que faltavam para ativar o efeito */
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+.nav-links li a {
+  display: inline-block;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+
 .nav-links li a:hover {
-color: #e64c72;
+transform: scale(1.1);
+filter: drop-shadow(0 0 5px rgba(230, 76, 114, 0.4));
+
 }
 
 .container-atendiento {
   width: 100%;
   padding: 25px 50px;
 }
+
 .titulo-principal h1 {
   font-size: 2rem;
   color: #48c416;
+  margin-top: 20px;
+  margin-left: 25px;
 
 }
 
@@ -67,6 +106,7 @@ color: #e64c72;
   display: flex;
   align-items: center;
 }
+
 .hero-container {
   width: 100%;
   max-width: 1200px;
@@ -76,12 +116,14 @@ color: #e64c72;
   align-items: center;
   gap: 40px;
 }
+
 .hero-content {
   width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+
 .hero-title {
   font-family: 'playfair display', serif;
   font-size: 4.5rem;
@@ -100,6 +142,7 @@ color: #e64c72;
 .hero-title span {
   display: inline-block;
 }
+
 .hero-subtitle {
   font-size: 1.2rem;
   font-weight: 700;
@@ -107,9 +150,11 @@ color: #e64c72;
   letter-spacing: 2px;
   margin-bottom: 35px;
 }
+
 .hero-action-block {
   display: flex;
 }
+
 .btn-show-now {
   text-decoration: none;
   background-color: #d13b56;
@@ -127,6 +172,7 @@ color: #e64c72;
   background-color: #b82f48;
   transform: translateY(-3px);
 }
+
 .hero-media {
   width: 50%;
   display: flex;
@@ -139,4 +185,7 @@ color: #e64c72;
   height: auto;
   object-fit: contain;
   display: block;
+  margin-top: -170px;
+  filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.5));
+
 }
