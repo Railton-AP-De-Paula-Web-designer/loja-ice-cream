@@ -9,11 +9,11 @@ const dadosFrutas = {
         titulo: "MORANGO",
         imagem: "./assets/nutri-morango.png",
         beneficios: [
-            { icone: "🌱", texto: "<strong>Vitamina C:</strong>Poderoso antioxidante que fortalece a imunidade e estimula o colágeno."},
-            { icone: "💧", texto: "<strong>Potássio:</strong> Essencial para o equilíbrio hídrico e controle da pressão arterial."},
+            { icone: "🌱", texto: "<strong>Vitamina C:</strong>Poderoso antioxidante que fortalece a imunidade e estimula o colágeno." },
+            { icone: "💧", texto: "<strong>Potássio:</strong> Essencial para o equilíbrio hídrico e controle da pressão arterial." },
             { icone: "🍓", texto: "<strong>Energia Sustentada:</strong> Carboidratos de absorção lenta que evitam picos repentinos de glicose." },
-            { icone: "⚡", texto: "<strong>Antioxidante Natural:</strong> Rico em antocianinas, que protegem o sistema cardiovascular."},
-            { icone: "❤️", texto: "<strong>Fibras Solúveis:</strong> Auxiliam diretamente na saúde digestiva e no controle do colesterol."}
+            { icone: "⚡", texto: "<strong>Antioxidante Natural:</strong> Rico em antocianinas, que protegem o sistema cardiovascular." },
+            { icone: "❤️", texto: "<strong>Fibras Solúveis:</strong> Auxiliam diretamente na saúde digestiva e no controle do colesterol." }
 
         ]
     },
@@ -29,7 +29,7 @@ const dadosFrutas = {
 
 
         ]
-        
+
     },
     "açaí": {
         titulo: "AÇAÍ",
@@ -117,10 +117,10 @@ const dadosFrutas = {
         imagem: "./assets/nutri-abacaxi.png",
         beneficios: [
             { icone: "🍍", texto: "<strong>Bromelina Ativa:</strong> Contém uma enzima poderosa que quebra proteínas, facilitando a digestão e reduzindo o inchaço estomacal." },
-{ icone: "🛡️", texto: "<strong>Imunidade Reforçada:</strong> Rico em vitamina C, fortalece as defesas naturais do corpo contra gripes, resfriados e infecções." },
-{ icone: "🔥", texto: "<strong>Ação Anti-inflamatória:</strong> Seus compostos ativos ajudam a reduzir inflamações no corpo, aliviando dores articulares e musculares." },
-{ icone: "💧", texto: "<strong>Efeito Diurético:</strong> Alto teor de água e potássio que auxiliam no combate à retenção de líquidos e na eliminação de toxinas." },
-{ icone: "✨", texto: "<strong>Renovação Celular:</strong> Fonte de antioxidantes e manganês, que protegem contra o envelhecimento precoce e mantêm a vitalidade da pele." }
+            { icone: "🛡️", texto: "<strong>Imunidade Reforçada:</strong> Rico em vitamina C, fortalece as defesas naturais do corpo contra gripes, resfriados e infecções." },
+            { icone: "🔥", texto: "<strong>Ação Anti-inflamatória:</strong> Seus compostos ativos ajudam a reduzir inflamações no corpo, aliviando dores articulares e musculares." },
+            { icone: "💧", texto: "<strong>Efeito Diurético:</strong> Alto teor de água e potássio que auxiliam no combate à retenção de líquidos e na eliminação de toxinas." },
+            { icone: "✨", texto: "<strong>Renovação Celular:</strong> Fonte de antioxidantes e manganês, que protegem contra o envelhecimento precoce e mantêm a vitalidade da pele." }
 
         ]
     },
@@ -129,10 +129,10 @@ const dadosFrutas = {
         imagem: "./assets/nutri-limao.png",
         beneficios: [
             { icone: "🍋", texto: "<strong>Super Carga de Vitamina C:</strong> Fortalece ativamente o sistema imunológico, ajudando a blindar o corpo contra gripes e infecções." },
-{ icone: "🧹", texto: "<strong>Ação Detox e Digestiva:</strong> Estimula a produção de bile pelo fígado, facilitando a digestão e auxiliando na eliminação de toxinas." },
-{ icone: "✨", texto: "<strong>Combate ao Envelhecimento:</strong> Rico em antioxidantes que neutralizam os radicais livres, mantendo a integridade e a juventude da pele." },
-{ icone: "🩸", texto: "<strong>Alcalinização do Organismo:</strong> Apesar de ácido no sabor, seus minerais ajudam a equilibrar o pH sanguíneo após ser metabolizado." },
-{ icone: "💧", texto: "<strong>Efeito Hidratante e Diurético:</strong> Auxilia no bom funcionamento dos rins, promovendo a eliminação de líquidos e reduzindo o inchaço." }
+            { icone: "🧹", texto: "<strong>Ação Detox e Digestiva:</strong> Estimula a produção de bile pelo fígado, facilitando a digestão e auxiliando na eliminação de toxinas." },
+            { icone: "✨", texto: "<strong>Combate ao Envelhecimento:</strong> Rico em antioxidantes que neutralizam os radicais livres, mantendo a integridade e a juventude da pele." },
+            { icone: "🩸", texto: "<strong>Alcalinização do Organismo:</strong> Apesar de ácido no sabor, seus minerais ajudam a equilibrar o pH sanguíneo após ser metabolizado." },
+            { icone: "💧", texto: "<strong>Efeito Hidratante e Diurético:</strong> Auxilia no bom funcionamento dos rins, promovendo a eliminação de líquidos e reduzindo o inchaço." }
         ]
 
     },
@@ -141,10 +141,10 @@ const dadosFrutas = {
         imagem: "./assets/nutri-amendoin.png",
         beneficios: [
             { icone: "❤️", texto: "<strong>Saúde Cardiovascular:</strong> Fonte de gorduras monoinsaturadas e resveratrol que promovem o bom funcionamento do coração." },
-{ icone: "🔋", texto: "<strong>Energia Sustentada:</strong> Rico em proteínas e fibras que mantêm a saciedade e regulam a energia por mais tempo." },
-{ icone: "🧠", texto: "<strong>Função Cognitiva:</strong> Contém niacina e vitamina E, essenciais para a saúde cerebral e a memória." },
-{ icone: "🔥", texto: "<strong>Ação Anti-inflamatória:</strong> Seus compostos fenólicos ajudam a reduzir inflamações e o estresse oxidativo." },
-{ icone: "💪", texto: "<strong>Saúde Muscular:</strong> Fonte de magnésio e fósforo que auxiliam na contração muscular e na saúde óssea." }
+            { icone: "🔋", texto: "<strong>Energia Sustentada:</strong> Rico em proteínas e fibras que mantêm a saciedade e regulam a energia por mais tempo." },
+            { icone: "🧠", texto: "<strong>Função Cognitiva:</strong> Contém niacina e vitamina E, essenciais para a saúde cerebral e a memória." },
+            { icone: "🔥", texto: "<strong>Ação Anti-inflamatória:</strong> Seus compostos fenólicos ajudam a reduzir inflamações e o estresse oxidativo." },
+            { icone: "💪", texto: "<strong>Saúde Muscular:</strong> Fonte de magnésio e fósforo que auxiliam na contração muscular e na saúde óssea." }
         ]
     },
     "milho-verde": {
@@ -152,23 +152,23 @@ const dadosFrutas = {
         imagem: "./assets/nutri-milho-verde.png",
         beneficios: [
             { icone: "🌽", texto: "<strong>Energia e Vitalidade:</strong> Rico em carboidratos complexos de digestão lenta, que fornecem energia constante para as atividades diárias." },
-{ icone: "👁️", texto: "<strong>Proteção da Visão:</strong> Fonte poderosa de luteína e zeaxantina, antioxidantes essenciais que protegem os olhos contra a degeneração macular." },
-{ icone: "🧹", texto: "<strong>Saúde Intestinal:</strong> Possui alto teor de fibras insolúveis que melhoram o trânsito intestinal e auxiliam no bom funcionamento do sistema digestivo." },
-{ icone: "🧠", texto: "<strong>Sistema Nervoso:</strong> Contém vitaminas do complexo B, especialmente a tiamina (B1), fundamentais para a memória e o metabolismo celular." },
-{ icone: "🛡️", texto: "<strong>Ação Antioxidante:</strong> Rico em ácido ferúlico e vitamina A, que auxiliam no combate aos radicais livres e fortalecem o sistema de defesa." }
+            { icone: "👁️", texto: "<strong>Proteção da Visão:</strong> Fonte poderosa de luteína e zeaxantina, antioxidantes essenciais que protegem os olhos contra a degeneração macular." },
+            { icone: "🧹", texto: "<strong>Saúde Intestinal:</strong> Possui alto teor de fibras insolúveis que melhoram o trânsito intestinal e auxiliam no bom funcionamento do sistema digestivo." },
+            { icone: "🧠", texto: "<strong>Sistema Nervoso:</strong> Contém vitaminas do complexo B, especialmente a tiamina (B1), fundamentais para a memória e o metabolismo celular." },
+            { icone: "🛡️", texto: "<strong>Ação Antioxidante:</strong> Rico em ácido ferúlico e vitamina A, que auxiliam no combate aos radicais livres e fortalecem o sistema de defesa." }
         ]
-        
-        
+
+
     },
     "uva": {
         titulo: "UVA",
         imagem: "./assets/nutri-uva.png",
         beneficios: [
             { icone: "🍇", texto: "<strong>Resveratrol Poderoso:</strong> Contém um potente antioxidante concentrado na casca que protege o coração e combate os radicais livres." },
-{ icone: "❤️", texto: "<strong>Saúde Cardiovascular:</strong> Auxilia na dilatação dos vasos sanguíneos, melhorando a circulação e ajudando a regular a pressão arterial." },
-{ icone: "✨", texto: "<strong>Longevidade Celular:</strong> Seus compostos fenólicos atuam diretamente na prevenção do envelhecimento precoce das células e da pele." },
-{ icone: "🧠", texto: "<strong>Proteção Cerebral:</strong> Possui nutrientes que estimulam as funções cognitivas, auxiliando na melhora da memória e da atenção." },
-{ icone: "🧹", texto: "<strong>Ação Depurativa:</strong> Seus ácidos naturais estimulam o funcionamento do fígado e dos rins, ajudando na eliminação de resíduos metabólicos." }
+            { icone: "❤️", texto: "<strong>Saúde Cardiovascular:</strong> Auxilia na dilatação dos vasos sanguíneos, melhorando a circulação e ajudando a regular a pressão arterial." },
+            { icone: "✨", texto: "<strong>Longevidade Celular:</strong> Seus compostos fenólicos atuam diretamente na prevenção do envelhecimento precoce das células e da pele." },
+            { icone: "🧠", texto: "<strong>Proteção Cerebral:</strong> Possui nutrientes que estimulam as funções cognitivas, auxiliando na melhora da memória e da atenção." },
+            { icone: "🧹", texto: "<strong>Ação Depurativa:</strong> Seus ácidos naturais estimulam o funcionamento do fígado e dos rins, ajudando na eliminação de resíduos metabólicos." }
         ]
     },
     "coco": {
@@ -176,10 +176,10 @@ const dadosFrutas = {
         imagem: "./assets/nutri-coco.png",
         beneficios: [
             { icone: "🥥", texto: "<strong>Gorduras de Alta Qualidade:</strong> Rico em triglicerídeos de cadeia média (TCM), que são digeridos rapidamente e transformados em energia imediata." },
-{ icone: "💧", texto: "<strong>Super Hidratação:</strong> Sua água possui um excelente balanço de eletrólitos (como potássio e magnésio), funcionando como um isotônico natural." },
-{ icone: "🛡️", texto: "<strong>Ação Antimicrobiana:</strong> Contém ácido láurico e monolaurina, compostos que ajudam a combater vírus, bactérias e fungos no organismo." },
-{ icone: "🧹", texto: "<strong>Funcionamento Intestinal:</strong> Sua polpa é rica em fibras que aumentam a saciedade, regulam o intestino e auxiliam no controle glicêmico." },
-{ icone: "✨", texto: "<strong>Nutrição da Pele e Cabelos:</strong> Possui antioxidantes e ácidos graxos que promovem a hidratação profunda, elasticidade e combate aos radicais livres." }
+            { icone: "💧", texto: "<strong>Super Hidratação:</strong> Sua água possui um excelente balanço de eletrólitos (como potássio e magnésio), funcionando como um isotônico natural." },
+            { icone: "🛡️", texto: "<strong>Ação Antimicrobiana:</strong> Contém ácido láurico e monolaurina, compostos que ajudam a combater vírus, bactérias e fungos no organismo." },
+            { icone: "🧹", texto: "<strong>Funcionamento Intestinal:</strong> Sua polpa é rica em fibras que aumentam a saciedade, regulam o intestino e auxiliam no controle glicêmico." },
+            { icone: "✨", texto: "<strong>Nutrição da Pele e Cabelos:</strong> Possui antioxidantes e ácidos graxos que promovem a hidratação profunda, elasticidade e combate aos radicais livres." }
         ]
     },
     "blue-ice": {
@@ -187,10 +187,10 @@ const dadosFrutas = {
         imagem: "./assets/nutri-blue-ice.png",
         beneficios: [
             { icone: "🍦", texto: "<strong>Sabor Nostálgico Marcante:</strong> Traz o clássico e irresistível sabor de tutti-frutti que desperta memórias afetivas e agrada a todas as idades." },
-{ icone: "⚡", texto: "<strong>Aporte de Energia Rápida:</strong> Fonte de carboidratos que fornecem energia imediata para o corpo, ideal para um momento de recuperação e disposição." },
-{ icone: "🧠", texto: "<strong>Estímulo de Bem-Estar:</strong> O consumo de sorvete ativa zonas de prazer no cérebro, liberando serotonina e auxiliando na redução do estresse diário." },
-{ icone: "❄️", texto: "<strong>Refrescância Instantânea:</strong> Promove o resfriamento térmico corporal imediato, ideal para hidratação e alívio nos dias mais quentes do ano." },
-{ icone: "✨", texto: "<strong>Textura Cremosa e Leve:</strong> Produzido com uma base que garante cremosidade excepcional, tornando a experiência de consumo altamente prazerosa." }
+            { icone: "⚡", texto: "<strong>Aporte de Energia Rápida:</strong> Fonte de carboidratos que fornecem energia imediata para o corpo, ideal para um momento de recuperação e disposição." },
+            { icone: "🧠", texto: "<strong>Estímulo de Bem-Estar:</strong> O consumo de sorvete ativa zonas de prazer no cérebro, liberando serotonina e auxiliando na redução do estresse diário." },
+            { icone: "❄️", texto: "<strong>Refrescância Instantânea:</strong> Promove o resfriamento térmico corporal imediato, ideal para hidratação e alívio nos dias mais quentes do ano." },
+            { icone: "✨", texto: "<strong>Textura Cremosa e Leve:</strong> Produzido com uma base que garante cremosidade excepcional, tornando a experiência de consumo altamente prazerosa." }
         ]
     },
     "chiclete": {
@@ -198,10 +198,10 @@ const dadosFrutas = {
         imagem: "./assets/nutri-chiclete.png",
         beneficios: [
             { icone: "🍬", texto: "<strong>Estímulo ao Foco e Concentração:</strong> O ato de mastigar aumenta o fluxo sanguíneo cerebral, auxiliando na atenção e na agilidade mental." },
-{ icone: "🧠", texto: "<strong>Alívio do Estresse:</strong> Ajuda a reduzir os níveis de cortisol (hormônio do estresse) no organismo, promovendo uma sensação de relaxamento." },
-{ icone: "🧼", texto: "<strong>Higiene Bucal Rápida:</strong> Estimula a produção de saliva, o que ajuda a limpar resíduos alimentares e a neutralizar ácidos na boca." },
-{ icone: "🍃", texto: "<strong>Hálito Renovado:</strong> Proporciona uma sensação imediata de refrescância e limpeza, ideal para o bem-estar e a confiança no dia a dia." },
-{ icone: "🧹", texto: "<strong>Auxílio na Digestão:</strong> A mastigação sinaliza para o estômago a produção de ácidos digestivos, facilitando o processo após as refeições." }
+            { icone: "🧠", texto: "<strong>Alívio do Estresse:</strong> Ajuda a reduzir os níveis de cortisol (hormônio do estresse) no organismo, promovendo uma sensação de relaxamento." },
+            { icone: "🧼", texto: "<strong>Higiene Bucal Rápida:</strong> Estimula a produção de saliva, o que ajuda a limpar resíduos alimentares e a neutralizar ácidos na boca." },
+            { icone: "🍃", texto: "<strong>Hálito Renovado:</strong> Proporciona uma sensação imediata de refrescância e limpeza, ideal para o bem-estar e a confiança no dia a dia." },
+            { icone: "🧹", texto: "<strong>Auxílio na Digestão:</strong> A mastigação sinaliza para o estômago a produção de ácidos digestivos, facilitando o processo após as refeições." }
         ]
     },
     "chocolate": {
@@ -209,10 +209,90 @@ const dadosFrutas = {
         imagem: "./assets/nutri-chocolate.png",
         beneficios: [
             { icone: "🍫", texto: "<strong>Estímulo do Humor:</strong> Estimula a produção de endorfina e dopamina, promovendo uma sensação imediata de bem-estar e felicidade." },
-{ icone: "❤️", texto: "<strong>Saúde Vascular:</strong> Rico em flavonoides, compostos que melhoram a circulação sanguínea e auxiliam na saúde do coração." },
-{ icone: "🧠", texto: "<strong>Função Cognitiva:</strong> Melhora o fluxo de sangue no cérebro, beneficiando a memória, o foco e a atenção." },
-{ icone: "🔋", texto: "<strong>Energia Rápida:</strong> Fonte de carboidratos e compostos bioativos que garantem um pico de disposição para a rotina ou treinos." },
-{ icone: "✨", texto: "<strong>Ação Antioxidante:</strong> Contém nutrientes que combatem os radicais livres, auxiliando na proteção celular e na saúde da pele." }
+            { icone: "❤️", texto: "<strong>Saúde Vascular:</strong> Rico em flavonoides, compostos que melhoram a circulação sanguínea e auxiliam na saúde do coração." },
+            { icone: "🧠", texto: "<strong>Função Cognitiva:</strong> Melhora o fluxo de sangue no cérebro, beneficiando a memória, o foco e a atenção." },
+            { icone: "🔋", texto: "<strong>Energia Rápida:</strong> Fonte de carboidratos e compostos bioativos que garantem um pico de disposição para a rotina ou treinos." },
+            { icone: "✨", texto: "<strong>Ação Antioxidante:</strong> Contém nutrientes que combatem os radicais livres, auxiliando na proteção celular e na saúde da pele." }
+        ]
+    },
+    "chocolate-branco": {
+
+
+        titulo: "CHOCOLATE BRANCO",
+        imagem: "./assets/nutri-chocolate-branco.png",
+        beneficios: [
+            { icone: "🍦", texto: "<strong>Sabor Cremoso Incomparável:</strong> Textura rica e aveludada que derrete na boca, proporcionando uma experiência sensorial única." },
+            { icone: "🦴", texto: "<strong>Aporte de Cálcio:</strong> Por conter uma base concentrada de leite, auxilia diretamente no fortalecimento de ossos e dentes." },
+            { icone: "⚡", texto: "<strong>Energia Imediata:</strong> Fonte rica em carboidratos e lipídeos, ideal para um rápido fornecimento de calorias e disposição." },
+            { icone: "🧠", texto: "<strong>Estímulo de Bem-Estar:</strong> O consumo ativa os receptores de prazer no cérebro, estimulando a dopamina e reduzindo o estresse." },
+            { icone: "✨", texto: "<strong>Textura e Versatilidade:</strong> A presença da manteiga de cacau garante uma consistência nobre, muito valorizada na confeitaria gourmet." }
+        ]
+
+    },
+    "doce-de-leite": {
+        titulo: "DOCE DE LEITE",
+        imagem: "./assets/nutri-doce-de-leite.png",
+        beneficios: [
+            { icone: "🍯", texto: "<strong>Energia Rápida e Disposição:</strong> Rico em carboidratos simples que são absorvidos rapidamente, fornecendo combustível imediato para treinos ou dias intensos." },
+{ icone: "🦴", texto: "<strong>Fonte de Cálcio:</strong> Por ser produzido a partir da redução do leite concentrado, preserva minerais essenciais para a integridade de ossos e dentes." },
+{ icone: "🧠", texto: "<strong>Estímulo de Serotonina:</strong> O consumo de doces cremosos estimula a produção de neurotransmissores ligados ao prazer, reduzindo o estresse e melhorando o humor." },
+{ icone: "💪", texto: "<strong>Aporte Proteico do Leite:</strong> Contém aminoácidos vindos da proteína láctea, auxiliando de forma complementar na manutenção dos tecidos musculares." },
+{ icone: "✨", texto: "<strong>Sabor Tradicional Marcante:</strong> Sua textura caramelizada e cremosa confere alta palatabilidade, sendo um excelente ingrediente para o bem-estar sensorial." }
+        ]
+    },
+    "groselha":{
+        titulo: "GROSELHA",
+        imagem: "./assets/nutri-groselha.png",
+        beneficios: [
+            { icone: "🍒", texto: "<strong>Carga de Antocianinas:</strong> Pigmento natural com altíssimo poder antioxidante que combate os radicais livres e protege as células contra o envelhecimento." },
+{ icone: "🛡️", texto: "<strong>Aporte de Vitamina C:</strong> Fortalece ativamente o sistema imunológico, elevando as defesas naturais do organismo contra infecções e viroses." },
+{ icone: "🩸", texto: "<strong>Proteção Vascular:</strong> Seus compostos bioativos ajudam a melhorar a resistência dos vasos capilares, otimizando a circulação sanguínea." },
+{ icone: "⚙️", texto: "<strong>Ácidos Orgânicos Naturais:</strong> Contém substâncias que estimulam as glândulas digestivas, facilitando o processo de digestão e a absorção de nutrientes." },
+{ icone: "✨", texto: "<strong>Ação Anti-inflamatória:</strong> Ajuda a reduzir processos inflamatórios no corpo, atuando na proteção das articulações e na saúde da pele." }
+        ]
+    },
+    "leitinho":{
+        titulo: "LEITINHO",
+        imagem: "./assets/nutri-leitinho.png",
+        beneficios: [
+            { icone: "🦴", texto: "<strong>Cálcio de Alta Absorção:</strong> Mineral essencial e abundante que atua diretamente na formação, fortalecimento e manutenção da densidade óssea e dos dentes." },
+{ icone: "💪", texto: "<strong>Proteínas Completas:</strong> Rico em proteínas de alto valor biológico que fornecem os aminoácidos necessários para a construção e recuperação muscular." },
+{ icone: "🧠", texto: "<strong>Vitaminas do Complexo B:</strong> Contém nutrientes essenciais como a B12, que auxiliam no bom funcionamento do sistema nervoso e na produção de energia." },
+{ icone: "⚡", texto: "<strong>Minerais Ativos / Potássio:</strong> Possui uma excelente combinação de eletrólitos que ajudam na contração muscular e no equilíbrio hídrico do corpo." },
+{ icone: "✨", texto: "<strong>Vitamina A e Renovação:</strong> Fonte natural de vitamina A, que atua na proteção da visão, na saúde da pele e no fortalecimento do sistema de defesa." }
+        ]
+    },
+    "leite-condensado":{
+        titulo: "LEITE-CONDENSADO",
+        imagem: "./assets/nutri-leite-condensado.png",
+        beneficios: [
+            { icone: "⚡", texto: "<strong>Injeção de Energia Rápida:</strong> Concentrado em carboidratos de fácil absorção, sendo excelente para fornecer disposição imediata em momentos de alta demanda." },
+{ icone: "🦴", texto: "<strong>Nutrientes Base do Leite:</strong> Por ser feito a partir da redução do leite, mantém em sua composição parcelas importantes de cálcio, essenciais para os ossos." },
+{ icone: "🧠", texto: "<strong>Estímulo de Conforto e Humor:</strong> O sabor doce concentrado ativa áreas de recompensa no cérebro, liberando endorfina e promovendo acolhimento emocional." },
+{ icone: "🍰", texto: "<strong>Alta Palatabilidade:</strong> Sua textura densa e sabor marcante enriquecem o paladar, tornando-se o pilar central para o sucesso de receitas e sobremesas." },
+{ icone: "💪", texto: "<strong>Aporte de Proteínas Lácteas:</strong> Preserva os aminoácidos naturais do leite integral, auxiliando de forma complementar na nutrição diária dos tecidos." }
+        ]
+    },
+    "nata":{
+        titulo: "NATA",
+        imagem: "./assets/nutri-nata.png",
+        beneficios: [
+            { icone: "🥛", texto: "<strong>Energia de Longa Duração:</strong> Fonte concentrada de lipídeos saudáveis que fornecem combustível constante para o organismo, sem gerar picos de insulina." },
+{ icone: "👁️", texto: "<strong>Vitaminas Lipossolúveis:</strong> Rica em Vitamina A, um nutriente essencial que atua diretamente na proteção da visão e na regeneração celular da pele." },
+{ icone: "🦴", texto: "<strong>Absorção de Vitamina D:</strong> Sua base gordurosa facilita a fixação e o transporte de vitaminas que auxiliam na absorção de cálcio e no fortalecimento ósseo." },
+{ icone: "⚖️", texto: "<strong>Estímulo à Saciedade:</strong> Por conter ácidos graxos densos, retarda o esvaziamento gástrico, ajudando no controle do apetite ao longo do dia." },
+{ icone: "✨", texto: "<strong>Textura Nobre e Palatabilidade:</strong> Garante uma cremosidade excepcional e suavidade aos preparos, elevando a qualidade sensorial e o prazer no consumo." }
+        ]
+    },
+    "pinta-lingua": {
+        titulo: "PINTA-LÍNGUA",
+        imagem: "./assets/nutri-pinta-lingua.png",
+        beneficios: [
+            { icone: "👅", texto: "<strong>Experiência Lúdica e Diversão:</strong> Possui uma fórmula divertida que colore temporariamente a língua, transformando o consumo em uma brincadeira interativa." },
+{ icone: "⚡", texto: "<strong>Aporte de Energia Rápida:</strong> Rico em carboidratos simples que são metabolizados prontamente, garantindo um pico de disposição e vigor físico." },
+{ icone: "🧠", texto: "<strong>Estímulo de Alegria e Humor:</strong> Ativa as zonas de recompensa e prazer do cérebro através de suas cores vivas, reduzindo o estresse e trazendo descontração." },
+{ icone: "❄️", texto: "<strong>Refrescância Alucinante:</strong> Promove o resfriamento térmico imediato do corpo, sendo a escolha ideal para hidratar e aliviar o calor nos dias de verão." },
+{ icone: "✨", texto: "<strong>Sabor Frutado Intenso:</strong> Desenvolvido com notas aromáticas marcantes que prolongam a sensação de sabor na boca, tornando a experiência muito prazerosa." }
         ]
     }
 
