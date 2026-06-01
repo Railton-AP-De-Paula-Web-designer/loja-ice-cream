@@ -99,7 +99,123 @@ const dadosFrutas = {
             { icone: "🧹", texto: "<strong>Ação Diurética:</strong> Estimula o bom funcionamento dos rins, auxiliando na eliminação de toxinas e combatendo a retenção de líquidos." },
             { icone: "🛡️", texto: "<strong>Carga de Licopeno:</strong> Fonte riquíssima deste antioxidante que combate radicais livres, protegendo contra o envelhecimento precoce." }
         ]
+    },
+    "jabuticaba": {
+        titulo: "JABUTICABA",
+        imagem: "./assets/nutri-jabuti.png",
+        beneficios: [
+            { icone: "🍇", texto: "<strong>Antocianinas Potentes:</strong> Sua casca escura é rica em pigmentos que combatem radicais livres e protegem contra o envelhecimento." },
+            { icone: "✨", texto: "<strong>Estímulo de Colágeno:</strong> Contém nutrientes que auxiliam na firmeza da pele, prevenindo rugas e fortalecendo as articulações." },
+            { icone: "💪", texto: "<strong>Controle Glicêmico:</strong> Possui compostos que ajudam a regular os níveis de glicose no sangue, auxiliando no controle da energia." },
+            { icone: "🧹", texto: "<strong>Ação Desintoxicante:</strong> Auxilia na eliminação de toxinas do organismo e melhora o funcionamento geral do sistema digestivo." },
+            { icone: "🛡️", texto: "<strong>Defesa Ativa:</strong> Fonte de minerais e vitaminas que blindam o sistema imunológico contra infecções e inflamações." }
+
+        ]
+    },
+    "abacaxi": {
+        titulo: "ABACAXI",
+        imagem: "./assets/nutri-abacaxi.png",
+        beneficios: [
+            { icone: "🍍", texto: "<strong>Bromelina Ativa:</strong> Contém uma enzima poderosa que quebra proteínas, facilitando a digestão e reduzindo o inchaço estomacal." },
+{ icone: "🛡️", texto: "<strong>Imunidade Reforçada:</strong> Rico em vitamina C, fortalece as defesas naturais do corpo contra gripes, resfriados e infecções." },
+{ icone: "🔥", texto: "<strong>Ação Anti-inflamatória:</strong> Seus compostos ativos ajudam a reduzir inflamações no corpo, aliviando dores articulares e musculares." },
+{ icone: "💧", texto: "<strong>Efeito Diurético:</strong> Alto teor de água e potássio que auxiliam no combate à retenção de líquidos e na eliminação de toxinas." },
+{ icone: "✨", texto: "<strong>Renovação Celular:</strong> Fonte de antioxidantes e manganês, que protegem contra o envelhecimento precoce e mantêm a vitalidade da pele." }
+
+        ]
+    },
+    "limão": {
+        titulo: "LIMAO",
+        imagem: "./assets/nutri-limao.png",
+        beneficios: [
+            { icone: "🍋", texto: "<strong>Super Carga de Vitamina C:</strong> Fortalece ativamente o sistema imunológico, ajudando a blindar o corpo contra gripes e infecções." },
+{ icone: "🧹", texto: "<strong>Ação Detox e Digestiva:</strong> Estimula a produção de bile pelo fígado, facilitando a digestão e auxiliando na eliminação de toxinas." },
+{ icone: "✨", texto: "<strong>Combate ao Envelhecimento:</strong> Rico em antioxidantes que neutralizam os radicais livres, mantendo a integridade e a juventude da pele." },
+{ icone: "🩸", texto: "<strong>Alcalinização do Organismo:</strong> Apesar de ácido no sabor, seus minerais ajudam a equilibrar o pH sanguíneo após ser metabolizado." },
+{ icone: "💧", texto: "<strong>Efeito Hidratante e Diurético:</strong> Auxilia no bom funcionamento dos rins, promovendo a eliminação de líquidos e reduzindo o inchaço." }
+        ]
+
+    },
+    "amendoim": {
+        titulo: "AMENDOIM",
+        imagem: "./assets/nutri-amendoin.png",
+        beneficios: [
+            { icone: "❤️", texto: "<strong>Saúde Cardiovascular:</strong> Fonte de gorduras monoinsaturadas e resveratrol que promovem o bom funcionamento do coração." },
+{ icone: "🔋", texto: "<strong>Energia Sustentada:</strong> Rico em proteínas e fibras que mantêm a saciedade e regulam a energia por mais tempo." },
+{ icone: "🧠", texto: "<strong>Função Cognitiva:</strong> Contém niacina e vitamina E, essenciais para a saúde cerebral e a memória." },
+{ icone: "🔥", texto: "<strong>Ação Anti-inflamatória:</strong> Seus compostos fenólicos ajudam a reduzir inflamações e o estresse oxidativo." },
+{ icone: "💪", texto: "<strong>Saúde Muscular:</strong> Fonte de magnésio e fósforo que auxiliam na contração muscular e na saúde óssea." }
+        ]
+    },
+    "milho-verde": {
+        titulo: "MILHO-VERDE",
+        imagem: "./assets/nutri-milho-verde.png",
+        beneficios: [
+            { icone: "🌽", texto: "<strong>Energia e Vitalidade:</strong> Rico em carboidratos complexos de digestão lenta, que fornecem energia constante para as atividades diárias." },
+{ icone: "👁️", texto: "<strong>Proteção da Visão:</strong> Fonte poderosa de luteína e zeaxantina, antioxidantes essenciais que protegem os olhos contra a degeneração macular." },
+{ icone: "🧹", texto: "<strong>Saúde Intestinal:</strong> Possui alto teor de fibras insolúveis que melhoram o trânsito intestinal e auxiliam no bom funcionamento do sistema digestivo." },
+{ icone: "🧠", texto: "<strong>Sistema Nervoso:</strong> Contém vitaminas do complexo B, especialmente a tiamina (B1), fundamentais para a memória e o metabolismo celular." },
+{ icone: "🛡️", texto: "<strong>Ação Antioxidante:</strong> Rico em ácido ferúlico e vitamina A, que auxiliam no combate aos radicais livres e fortalecem o sistema de defesa." }
+        ]
+        
+        
+    },
+    "uva": {
+        titulo: "UVA",
+        imagem: "./assets/nutri-uva.png",
+        beneficios: [
+            { icone: "🍇", texto: "<strong>Resveratrol Poderoso:</strong> Contém um potente antioxidante concentrado na casca que protege o coração e combate os radicais livres." },
+{ icone: "❤️", texto: "<strong>Saúde Cardiovascular:</strong> Auxilia na dilatação dos vasos sanguíneos, melhorando a circulação e ajudando a regular a pressão arterial." },
+{ icone: "✨", texto: "<strong>Longevidade Celular:</strong> Seus compostos fenólicos atuam diretamente na prevenção do envelhecimento precoce das células e da pele." },
+{ icone: "🧠", texto: "<strong>Proteção Cerebral:</strong> Possui nutrientes que estimulam as funções cognitivas, auxiliando na melhora da memória e da atenção." },
+{ icone: "🧹", texto: "<strong>Ação Depurativa:</strong> Seus ácidos naturais estimulam o funcionamento do fígado e dos rins, ajudando na eliminação de resíduos metabólicos." }
+        ]
+    },
+    "coco": {
+        titulo: "COCO",
+        imagem: "./assets/nutri-coco.png",
+        beneficios: [
+            { icone: "🥥", texto: "<strong>Gorduras de Alta Qualidade:</strong> Rico em triglicerídeos de cadeia média (TCM), que são digeridos rapidamente e transformados em energia imediata." },
+{ icone: "💧", texto: "<strong>Super Hidratação:</strong> Sua água possui um excelente balanço de eletrólitos (como potássio e magnésio), funcionando como um isotônico natural." },
+{ icone: "🛡️", texto: "<strong>Ação Antimicrobiana:</strong> Contém ácido láurico e monolaurina, compostos que ajudam a combater vírus, bactérias e fungos no organismo." },
+{ icone: "🧹", texto: "<strong>Funcionamento Intestinal:</strong> Sua polpa é rica em fibras que aumentam a saciedade, regulam o intestino e auxiliam no controle glicêmico." },
+{ icone: "✨", texto: "<strong>Nutrição da Pele e Cabelos:</strong> Possui antioxidantes e ácidos graxos que promovem a hidratação profunda, elasticidade e combate aos radicais livres." }
+        ]
+    },
+    "blue-ice": {
+        titulo: "BLUE ICE",
+        imagem: "./assets/nutri-blue-ice.png",
+        beneficios: [
+            { icone: "🍦", texto: "<strong>Sabor Nostálgico Marcante:</strong> Traz o clássico e irresistível sabor de tutti-frutti que desperta memórias afetivas e agrada a todas as idades." },
+{ icone: "⚡", texto: "<strong>Aporte de Energia Rápida:</strong> Fonte de carboidratos que fornecem energia imediata para o corpo, ideal para um momento de recuperação e disposição." },
+{ icone: "🧠", texto: "<strong>Estímulo de Bem-Estar:</strong> O consumo de sorvete ativa zonas de prazer no cérebro, liberando serotonina e auxiliando na redução do estresse diário." },
+{ icone: "❄️", texto: "<strong>Refrescância Instantânea:</strong> Promove o resfriamento térmico corporal imediato, ideal para hidratação e alívio nos dias mais quentes do ano." },
+{ icone: "✨", texto: "<strong>Textura Cremosa e Leve:</strong> Produzido com uma base que garante cremosidade excepcional, tornando a experiência de consumo altamente prazerosa." }
+        ]
+    },
+    "chiclete": {
+        titulo: "CHICLETE",
+        imagem: "./assets/nutri-chiclete.png",
+        beneficios: [
+            { icone: "🍬", texto: "<strong>Estímulo ao Foco e Concentração:</strong> O ato de mastigar aumenta o fluxo sanguíneo cerebral, auxiliando na atenção e na agilidade mental." },
+{ icone: "🧠", texto: "<strong>Alívio do Estresse:</strong> Ajuda a reduzir os níveis de cortisol (hormônio do estresse) no organismo, promovendo uma sensação de relaxamento." },
+{ icone: "🧼", texto: "<strong>Higiene Bucal Rápida:</strong> Estimula a produção de saliva, o que ajuda a limpar resíduos alimentares e a neutralizar ácidos na boca." },
+{ icone: "🍃", texto: "<strong>Hálito Renovado:</strong> Proporciona uma sensação imediata de refrescância e limpeza, ideal para o bem-estar e a confiança no dia a dia." },
+{ icone: "🧹", texto: "<strong>Auxílio na Digestão:</strong> A mastigação sinaliza para o estômago a produção de ácidos digestivos, facilitando o processo após as refeições." }
+        ]
+    },
+    "chocolate": {
+        titulo: "CHOCOLATE",
+        imagem: "./assets/nutri-chocolate.png",
+        beneficios: [
+            { icone: "🍫", texto: "<strong>Estímulo do Humor:</strong> Estimula a produção de endorfina e dopamina, promovendo uma sensação imediata de bem-estar e felicidade." },
+{ icone: "❤️", texto: "<strong>Saúde Vascular:</strong> Rico em flavonoides, compostos que melhoram a circulação sanguínea e auxiliam na saúde do coração." },
+{ icone: "🧠", texto: "<strong>Função Cognitiva:</strong> Melhora o fluxo de sangue no cérebro, beneficiando a memória, o foco e a atenção." },
+{ icone: "🔋", texto: "<strong>Energia Rápida:</strong> Fonte de carboidratos e compostos bioativos que garantem um pico de disposição para a rotina ou treinos." },
+{ icone: "✨", texto: "<strong>Ação Antioxidante:</strong> Contém nutrientes que combatem os radicais livres, auxiliando na proteção celular e na saúde da pele." }
+        ]
     }
+
 }
 
 // 2. Mapeamento dos Elementos do DOM (Seleção dos alvos do HTML)
