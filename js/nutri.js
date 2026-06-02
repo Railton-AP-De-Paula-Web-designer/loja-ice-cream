@@ -149,7 +149,7 @@ const dadosFrutas = {
     },
     "milho-verde": {
         titulo: "MILHO-VERDE",
-        imagem: "./assets/nutri-milho-verde.png",
+        imagem: "./assets/nutri-milho.png",
         beneficios: [
             { icone: "🌽", texto: "<strong>Energia e Vitalidade:</strong> Rico em carboidratos complexos de digestão lenta, que fornecem energia constante para as atividades diárias." },
             { icone: "👁️", texto: "<strong>Proteção da Visão:</strong> Fonte poderosa de luteína e zeaxantina, antioxidantes essenciais que protegem os olhos contra a degeneração macular." },
@@ -184,7 +184,7 @@ const dadosFrutas = {
     },
     "blue-ice": {
         titulo: "BLUE ICE",
-        imagem: "./assets/nutri-blue-ice.png",
+        imagem: "./assets/blue-ice.png",
         beneficios: [
             { icone: "🍦", texto: "<strong>Sabor Nostálgico Marcante:</strong> Traz o clássico e irresistível sabor de tutti-frutti que desperta memórias afetivas e agrada a todas as idades." },
             { icone: "⚡", texto: "<strong>Aporte de Energia Rápida:</strong> Fonte de carboidratos que fornecem energia imediata para o corpo, ideal para um momento de recuperação e disposição." },
@@ -206,7 +206,7 @@ const dadosFrutas = {
     },
     "chocolate": {
         titulo: "CHOCOLATE",
-        imagem: "./assets/nutri-chocolate.png",
+        imagem: "./assets/nutri-choco.png",
         beneficios: [
             { icone: "🍫", texto: "<strong>Estímulo do Humor:</strong> Estimula a produção de endorfina e dopamina, promovendo uma sensação imediata de bem-estar e felicidade." },
             { icone: "❤️", texto: "<strong>Saúde Vascular:</strong> Rico em flavonoides, compostos que melhoram a circulação sanguínea e auxiliam na saúde do coração." },
@@ -219,7 +219,7 @@ const dadosFrutas = {
 
 
         titulo: "CHOCOLATE BRANCO",
-        imagem: "./assets/nutri-chocolate-branco.png",
+        imagem: "./assets/chocolate-branco.png",
         beneficios: [
             { icone: "🍦", texto: "<strong>Sabor Cremoso Incomparável:</strong> Textura rica e aveludada que derrete na boca, proporcionando uma experiência sensorial única." },
             { icone: "🦴", texto: "<strong>Aporte de Cálcio:</strong> Por conter uma base concentrada de leite, auxilia diretamente no fortalecimento de ossos e dentes." },
@@ -231,7 +231,7 @@ const dadosFrutas = {
     },
     "doce-de-leite": {
         titulo: "DOCE DE LEITE",
-        imagem: "./assets/nutri-doce-de-leite.png",
+        imagem: "./assets/doce-de-leite.png",
         beneficios: [
             { icone: "🍯", texto: "<strong>Energia Rápida e Disposição:</strong> Rico em carboidratos simples que são absorvidos rapidamente, fornecendo combustível imediato para treinos ou dias intensos." },
 { icone: "🦴", texto: "<strong>Fonte de Cálcio:</strong> Por ser produzido a partir da redução do leite concentrado, preserva minerais essenciais para a integridade de ossos e dentes." },
@@ -242,7 +242,7 @@ const dadosFrutas = {
     },
     "groselha":{
         titulo: "GROSELHA",
-        imagem: "./assets/nutri-groselha.png",
+        imagem: "./assets/groselha.png",
         beneficios: [
             { icone: "🍒", texto: "<strong>Carga de Antocianinas:</strong> Pigmento natural com altíssimo poder antioxidante que combate os radicais livres e protege as células contra o envelhecimento." },
 { icone: "🛡️", texto: "<strong>Aporte de Vitamina C:</strong> Fortalece ativamente o sistema imunológico, elevando as defesas naturais do organismo contra infecções e viroses." },
@@ -253,7 +253,7 @@ const dadosFrutas = {
     },
     "leitinho":{
         titulo: "LEITINHO",
-        imagem: "./assets/nutri-leitinho.png",
+        imagem: "./assets/leitinho.png",
         beneficios: [
             { icone: "🦴", texto: "<strong>Cálcio de Alta Absorção:</strong> Mineral essencial e abundante que atua diretamente na formação, fortalecimento e manutenção da densidade óssea e dos dentes." },
 { icone: "💪", texto: "<strong>Proteínas Completas:</strong> Rico em proteínas de alto valor biológico que fornecem os aminoácidos necessários para a construção e recuperação muscular." },
@@ -264,7 +264,7 @@ const dadosFrutas = {
     },
     "leite-condensado":{
         titulo: "LEITE-CONDENSADO",
-        imagem: "./assets/nutri-leite-condensado.png",
+        imagem: "./assets/leite-condensado.png",
         beneficios: [
             { icone: "⚡", texto: "<strong>Injeção de Energia Rápida:</strong> Concentrado em carboidratos de fácil absorção, sendo excelente para fornecer disposição imediata em momentos de alta demanda." },
 { icone: "🦴", texto: "<strong>Nutrientes Base do Leite:</strong> Por ser feito a partir da redução do leite, mantém em sua composição parcelas importantes de cálcio, essenciais para os ossos." },
@@ -275,7 +275,7 @@ const dadosFrutas = {
     },
     "nata":{
         titulo: "NATA",
-        imagem: "./assets/nutri-nata.png",
+        imagem: "./assets/nata.png",
         beneficios: [
             { icone: "🥛", texto: "<strong>Energia de Longa Duração:</strong> Fonte concentrada de lipídeos saudáveis que fornecem combustível constante para o organismo, sem gerar picos de insulina." },
 { icone: "👁️", texto: "<strong>Vitaminas Lipossolúveis:</strong> Rica em Vitamina A, um nutriente essencial que atua diretamente na proteção da visão e na regeneração celular da pele." },
@@ -286,7 +286,7 @@ const dadosFrutas = {
     },
     "pinta-lingua": {
         titulo: "PINTA-LÍNGUA",
-        imagem: "./assets/nutri-pinta-lingua.png",
+        imagem: "./assets/pinta-lingua.png",
         beneficios: [
             { icone: "👅", texto: "<strong>Experiência Lúdica e Diversão:</strong> Possui uma fórmula divertida que colore temporariamente a língua, transformando o consumo em uma brincadeira interativa." },
 { icone: "⚡", texto: "<strong>Aporte de Energia Rápida:</strong> Rico em carboidratos simples que são metabolizados prontamente, garantindo um pico de disposição e vigor físico." },
