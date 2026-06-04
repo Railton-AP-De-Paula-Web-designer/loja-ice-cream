@@ -4,6 +4,142 @@
     padding: 0;
 }
 
-body{
-    background-color:#adadad
+body {
+    /* Fundo unificado: Roxo profundo com degradê radial simulando iluminação de estúdio */
+    background-color: #0b0114;
+    background-image: radial-gradient(circle at 50% 35%, #23043d 0%, #0b0114 75%);
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    overflow-x: hidden;
+}
+
+/* ==========================================================================
+   2. CONTAINER PRINCIPAL (HERO SECTION)
+   ========================================================================== */
+.shopping-hero-section {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.shopping-hero-container {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+}
+
+/* ==========================================================================
+   3. LOGO PRINCIPAL (EFEITO GLOW DOURADO)
+   ========================================================================== */
+.img-shopping-logo {
+    max-width: 260px;
+    height: auto;
+    /* Sombra projetada dourada para destacar a coroa e as curvas do logo */
+    filter: drop-shadow(0px 4px 20px rgba(212, 175, 55, 0.4));
+    animation: fadeInDown 1.2s ease-out;
+}
+
+/* ==========================================================================
+   4. SAUDAÇÃO (FONTE CURSIVA ORIGINAL)
+   ========================================================================== */
+.shopping-user-greeting {
+    animation: fadeIn 1.5s ease-out;
+}
+
+.greeting-text {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.5rem;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+
+/* ==========================================================================
+   5. CAIXA PRINCIPAL (NEON GLASSMORPHISM)
+   ========================================================================== */
+.shopping-welcome-box {
+    background: rgba(15, 4, 28, 0.65); /* Fundo escuro translúcido */
+    backdrop-filter: blur(12px); /* Efeito de vidro jateado */
+    -webkit-backdrop-filter: blur(12px);
+    
+    /* Borda fina com gradiente implícito usando cor sólida neon */
+    border: 1px solid rgba(0, 242, 254, 0.25);
+    border-radius: 20px;
+    
+    padding: 50px 40px;
+    max-width: 500px;
+    width: 100%;
+    
+    /* Brilho Neon Azul/Ciano expandindo pelas bordas da caixa */
+    box-shadow: 0 0 25px rgba(0, 242, 254, 0.15), 
+                inset 0 0 15px rgba(0, 242, 254, 0.05);
+                
+    animation: fadeInUp 1.2s ease-out;
+}
+
+/* ==========================================================================
+   6. TIPOGRAFIA INTERNA & TEXTOS
+   ========================================================================== */
+.shopping-welcome-box h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.15;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+
+/* O Segredo do Efeito Neon "PEDIDO" */
+.shopping-welcome-box h1 span {
+    display: block;
+    color: #00f2fe;
+    font-weight: 900;
+    /* Camadas de sombra para criar a intensidade do arco de luz neon */
+    text-shadow: 0 0 8px rgba(0, 242, 254, 0.7), 
+                 0 0 20px rgba(0, 242, 254, 0.4), 
+                 0 0 40px rgba(0, 242, 254, 0.2);
+}
+
+/* Divisória Dourada Refinada (Substituta do HR comum) */
+.shopping-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    width: 100%;
+}
+
+.shopping-divider::before,
+.shopping-divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    /* Linha dourada que esmaece nas pontas (Efeito Premium) */
+    background: linear-gradient(90deg, transparent, #d4af37, transparent);
+    max-width: 120px;
+}
+
+.divider-detail {
+    color: #d4af37;
+    font-size: 0.9rem;
+    margin: 0 15px;
+    text-shadow: 0 0 5px rgba(212, 175, 55, 0.5);
+}
+
+/* Subtítulo */
+.shopping-subtitle {
+    font-size: 1.05rem;
+    color: #cbd5e1;
+    line-height: 1.6;
+    font-weight: 400;
+    max-width: 400px;
+    margin: 0 auto;
 }
