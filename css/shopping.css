@@ -159,7 +159,7 @@ body {
 /* Organização dos cards em um Grid automático e flexível */
 .container-produtos .coluna {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: 20px;
     width: 100%;
 
@@ -192,7 +192,7 @@ body {
     
 }
 /* Efeito Hover - O card ganha vida ao passar o mouse */
-.item-produto.sabor:hover {
+.item-produto.sabores:hover {
     transform: translateY(-4px);
     border-color: rgba(0, 242, 254, 0.5);
     box-shadow: 0 0 20px rgba(0, 242, 254, 0.2),
@@ -279,10 +279,93 @@ body {
     font-size: 2rem;
     color: #cca3e9;
     text-decoration: none;
-    transition: color 0.25 ease, text-shadow 0.25s ease;
+    transition: color 0.25s ease, text-shadow 0.25s ease;
 }
 /* Efeito de brilho ao passar o mouse nos links */
 .shopping-header .nav-links li a:hover{
     color: #ff79c6;
     text-shadow: 0 0 10px rgba(255, 121, 198, 0.6);
 }
+
+/*9. PAINEL ADMINISTRATIVO (RODAPÉ FIXO - ADICIONADO)*/
+.painel-administrativo {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    background: rgba(11, 1, 20, 0.85);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-top: 1px solid rgba(0,242, 254, 0.2);
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+    box-shadow: 0 -5px 25px rgba(0, 0, 0, 0.6);
+}
+/* Área central de exibição dos valores */
+.resumo-valores {
+    text-align: center;
+}
+.resumo-valores p {
+    margin: 0;
+    font-size: 0.95rem;
+    color: #cbd5e1;
+    font-weight: 400;
+}
+#total-picoles {
+    color: #00f2fe;
+    font-weight: 700;
+}
+.valor-total {
+    font-size: 1.35rem;
+    font-weight: 800;
+    margin-top: 3px !important;
+
+}
+#valor-total {
+    color: #ffffff;
+    letter-spacing: 0.5px;
+}
+/* Configuração dos Botões do Painel */
+.painel-administrativo button {
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 0.95rem;
+    padding: 12px 28px;
+    border-radius: 8px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: all 0.25s ease;
+}
+/* Botão CANCELAR */
+#cancelar-pedido {
+    background: #ff5252;
+    box-shadow: 0 0 10px rgba(255, 82, 82, 0.3);   
+}
+#cancelar-pedido:hover {
+    background: #ff6e6e;
+    transform: translateY(-2px);
+    box-shadow: 0 0 18px rgba(255, 82, 82, 0.5);
+}
+    /* Botão IMPRIMIR */
+    #imprimir-pedido{
+        background: #00f2fe;
+        color: #0b0114;
+        box-shadow: 0 0 10px rgba(0, 242, 254, 0.3);
+    }
+    #imprimir-pedido:hover {
+        background: #33f5ff;
+        transform: translateY(-2px);
+        box-shadow: 0 0 18px rgba(0, 242, 254, 0.6);
+    }
+    /* Efeito de clique físico nos botões do rodapé */
+    #cancelar-pedido:active,
+    #imprimir-pedido:active {
+        transform: translateY(0) scale(0.96);
+    }
+    
