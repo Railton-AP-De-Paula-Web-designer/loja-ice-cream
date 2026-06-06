@@ -257,3 +257,32 @@ body {
 .btn-remove:active {
     transform: scale(0.92);
 }
+.shopping-header .navbar-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: -370px;
+    align-items: center;
+    width: 100%;
+}
+/* Garante o alinhamento horizontal dos links à direita */
+.shopping-header .nav-links {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+/* Estilização exclusiva dos links em fonte cursiva */
+.shopping-header .nav-links li a {
+    font-family: 'great vibes', cursive;
+    font-size: 2rem;
+    color: #cca3e9;
+    text-decoration: none;
+    transition: color 0.25 ease, text-shadow 0.25s ease;
+}
+/* Efeito de brilho ao passar o mouse nos links */
+.shopping-header .nav-links li a:hover{
+    color: #ff79c6;
+    text-shadow: 0 0 10px rgba(255, 121, 198, 0.6);
+}
