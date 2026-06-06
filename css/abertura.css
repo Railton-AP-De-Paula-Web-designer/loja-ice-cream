@@ -173,8 +173,10 @@
         object-fit: cover;
     } 
     .watermark-blur {
-        left: 50%;
-        width: 180px;
+        right: 155%;
+        width: 700px;
+        margin-top: 7px;
+        z-index: 999;
     }
     .side-text {
         position: relative;
