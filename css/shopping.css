@@ -143,3 +143,117 @@ body {
     max-width: 400px;
     margin: 0 auto;
 }
+
+/*7. SEÇÃO DO PAINEL DE PRODUTOS (NOVO & MODERNO)*/
+.shopping-hero-section {
+    min-height: auto;
+    padding: 60px 20px 40px 20px;
+}
+.container-produtos {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 20px 80px 20px;
+    animation: fadeIn 1.4s ease-out;
+}
+/* Organização dos cards em um Grid automático e flexível */
+.container-produtos .coluna {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280, 1fr));
+    gap: 20px;
+    width: 100%;
+
+}
+/* Título do preço estilizado em Dourado Premium */
+.titulo-preco {
+    grid-column: 1  -1;
+    font-family: 'poppins', sans-serif;
+    color: #d4af37;
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+    text-shadow: 0 0 10px rgba(212, 175, 55, 0.4);
+}
+/*8. ESTILIZAÇÃO DOS CARDS DE PRODUTOS (Glassmorphism e Neon Glow)*/
+
+.item-produto.sabores {
+    background: rgba(15, 4, 28, 0.55);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(0,242, 254, 0.15);
+    padding: 16px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: transform 0.25 ease, border-color 0.25 ease, box-shadow 0.25 ease;
+    
+}
+/* Efeito Hover - O card ganha vida ao passar o mouse */
+.item-produto.sabor:hover {
+    transform: translateY(-4px);
+    border-color: rgba(0, 242, 254, 0.5);
+    box-shadow: 0 0 20px rgba(0, 242, 254, 0.2),
+                inset 0 0 10px rgba(0, 242, 254, 0.05);
+
+}
+/* Indicador numérico (Contador) em Azul Neon destacado */
+.contador {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #00f2fe;
+    text-shadow: 0 0 8px rgba(0, 242, 254, 0.6);
+    min-width: 25px;
+}
+/* Nome do sabor do picolé */
+.nome-produto {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #ffffff;
+    flex-grow: 1;
+    margin-left: 12px;
+    margin-right: 12px;
+    letter-spacing: 0.5px;
+}
+/* Alinhamento dos botões de ação */
+.controles {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+/* Estilo Base dos Botões + e - */
+.btn-add,
+.btn-remove {
+    background: rgba(11, 1, 20, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    width: 38px;
+    height: 38px;
+    border-radius: 8px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+}
+/* Botão de Adicionar (+) acende em ciano neon */
+.btn-add:hover {
+    background: #00f2fe;
+    color: #0b0114;
+    box-shadow: 0 0 12px #00f2fe;
+}
+/* Botão de Remover (-) acende em uma cor de alerta suave */
+.btn-remove:hover {
+    background: #ff5252;
+    border-color: #ffffff;
+    box-shadow: 0 0 12px rgba(255, 82, 82, 0.6);
+}
+/* Efeito físico de clique nos botões */
+.btn-add:active,
+.btn-remove:active {
+    transform: scale(0.92);
+}
