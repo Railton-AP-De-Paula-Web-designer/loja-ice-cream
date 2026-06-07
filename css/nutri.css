@@ -337,3 +337,94 @@ letter-spacing: -1px;
     0%, 100% { opacity: 0.3; transform: scale(1);}
     50% { opacity: 0.8; transform: scale(1.1);}
 }
+@media screen and (max-width: 768px) {
+    .nutri-container{
+        padding: 15px 15px;
+    }
+    .conection-line {
+        display: none;
+    }
+    .navbar-content {
+        padding: 15px 20px;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .nav-links {
+        gap: 20px;
+    }
+    .fruit-panel{
+        margin-bottom: 20px;
+    }
+    .fruit-grid {
+        gap: 10px 12px;
+        padding: 5px;
+    }
+    .fruit-card {
+        padding: 6px 16px;
+    }
+    .fruit-name {
+        font-size: 0.8rem;
+    }
+    .carousel-wrapper {
+        padding: 0;
+    }
+    .arrow-btn {
+        display: none;
+    }
+    .display-card {
+        flex-direction: column;
+        min-height: auto;
+    }
+    .card-visual {
+        flex: none;
+        width: 100%;
+        height: 180px;
+    }
+    .main-fruit-title {
+        font-size: 3.2rem;
+    }
+    .card-info {
+        flex: none;
+        width: 100%;
+        padding: 25px 20px;
+        border-left: none;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+
+}
+.info-header {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+.highlight-fruit {
+    font-size: 1.6rem;
+    word-wrap: break-word;
+    display: block;
+    margin-top: 5px;
+}
+.nutrition-list {
+    gap: 15px;
+}
+.nutrition-list li {
+    gap: 10px;
+    align-items: flex-start;
+}
+.nutri-text {
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+.panel-footer {
+    flex-direction:column;
+    gap: 15px;
+    text-align: center;
+    margin-top: 15px;
+}
+.footer-brand {
+    font-size: 0.8rem;
+}
+.btn-back {
+    width: 100%;
+    padding: 10px 25px;
+}
+
+
+}
