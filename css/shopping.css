@@ -468,55 +468,65 @@ body {
     }
 }
 
+
 @media screen and (max-width: 950px) and (orientation: landscape) {
-    .shopping-jero-section {
+
+    .shopping-hero-section { /* Corrigido: era jero, mudado cirurgicamente para hero */
         padding: 20px 30px;
         min-height: auto;
         display: flex;
         align-items: center;
     }
+
     .shopping-hero-container {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
         gap: 20px;
     }
+
     .shopping-welcome-box {
         width: 55%;
         text-align: left;
         padding: 25px 30px;
     }
+
     .shopping-welcome-box h1 {
         font-size: 2.2rem;
     }
+
     .shopping-subtitle {
         font-size: 0.9rem;
-
     }
-    .shopping-divider{
+
+    .shopping-divider {
         margin: 15px 0;
     }
+
     .img-shopping-logo {
         max-width: 160px;
     }
+
     .container-produtos {
         padding: 10px 15px 100px 15px;
     }
+
     .container-produtos .coluna {
         grid-template-columns: repeat(2, 1fr) !important;
         gap: 12px;
     }
+
     .titulo-preco {
         font-size: 1.4rem;
         margin-bottom: 15px;
     }
+
     .painel-administrativo {
         padding: 10px 30px;
     }
+
     .painel-administrativo button {
         padding: 10px 20px;
         font-size: 0.85rem;
     }
-
 }
-    
