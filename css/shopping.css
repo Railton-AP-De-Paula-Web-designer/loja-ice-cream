@@ -368,4 +368,103 @@ body {
     #imprimir-pedido:active {
         transform: translateY(0) scale(0.96);
     }
+@media screen and (max-width: 768px) {
+    .shopping-header .navbar-content {
+        flex-direction: column;
+        gap: 15px;
+        margin-left: 0;
+        padding: 0 15px;
+        text-align: center;
+    }
+
+    .shopping-header .nav-links {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .shopping-header .nav-links li a {
+        font-size: 1.6rem;
+    }
+
+    .shopping-hero-section {
+        padding: 40px 15px 20px 15px;
+    }
+
+    .img-shopping-logo {
+        max-width: 180px;
+    }
+
+    /* CORREÇÃO: Ajustado de .greating-text para .greeting-text (dois 'e') */
+    .greeting-text {
+        font-size: 2rem;
+    }
+
+    .shopping-welcome-box {
+        padding: 30px 20px;
+        max-width: 100%;
+    }
+
+    .shopping-welcome-box h1 {
+        font-size: 2rem;
+    }
+
+    .container-produtos {
+        padding: 10px 15px 120px 15px;
+    }
+
+    .container-produtos .coluna {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    .titulo-preco {
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+    }
+
+    .nome-produto {
+        font-size: 0.95rem;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .painel-administrativo {
+        padding: 12px 15px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    .resumo-valores {
+        width: 100%;
+        order: -1;
+        border-bottom: 1px solid rgba(0, 242, 254, 0.1);
+        padding-bottom: 8px;
+        margin-bottom: 2px;
+    }
+
+    .resumo-valores p {
+        font-size: 0.85rem;
+        display: inline-block;
+        margin: 0 10px;
+    }
+
+    .valor-final {
+        font-size: 1.1rem;
+        display: inline-block;
+    }
+
+    /* CORREÇÃO: Adicionado 'button' ao seletor para aplicar as regras nos botões, 
+       e não no container do painel inteiro */
+    .painel-administrativo button {
+        flex: 1;
+        padding: 12px 10px;
+        font-size: 0.85rem;
+        text-align: center;
+        white-space: nowrap;
+    }
+}
     

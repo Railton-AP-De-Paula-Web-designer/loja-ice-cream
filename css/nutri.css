@@ -351,6 +351,7 @@ letter-spacing: -1px;
     }
     .nav-links {
         gap: 20px;
+        text-transform: uppercase;
     }
     .fruit-panel{
         margin-bottom: 20px;
